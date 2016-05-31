@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mobiletesting.betraditional.categories"
+    android:background="#fbff09"
+    android:id="@+id/button4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We have the below three categories"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="WOMEN"
+        android:id="@+id/button8"
+        android:textSize="30dp"
+        android:background="#fbff09"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="KID"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textSize="30dp"
+        android:background="#fbff09" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="MEN"
+        android:id="@+id/button10"
+        android:layout_below="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:textSize="30dp"
+        android:background="#fbff09" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView6"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/icon_1"
+        android:layout_alignParentEnd="false" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView7"
+        android:layout_alignTop="@+id/button9"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/icon_3"
+        android:layout_alignParentEnd="false" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView8"
+        android:layout_alignTop="@+id/button10"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/icon_2"
+        android:layout_alignParentEnd="false" />
+
+</RelativeLayout>
